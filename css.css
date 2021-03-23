@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-in{
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    height: 600px;
+}
+.child{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(243, 113, 200);
+    margin: 15px;
+    justify-content: center;
+    align-items: flex-end;
+    color: azure;
+    font-size: 28px;
+    font-weight: bold;
+    border: 4px solid rgba(255, 255, 255, .6);
+    border-radius: 25px;
+}
